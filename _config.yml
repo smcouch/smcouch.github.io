@@ -1,14 +1,9 @@
 # Site settings
 title: Sean M. Couch
-description: Computational Nuclear Astrophysicist at Michigan State University
-url: https://smcouch.github.io
-author: Sean M. Couch
-email: couch@pa.msu.edu
-social:
-  twitter: https://twitter.com/SeanMCouch
-  github: https://github.com/smcouch
-  bitbucket: https://bitbucket.org/smcouch
-  youtube: https://www.youtube.com/user/SeanMCouch
+email: scouch@msu.edu
+description: The Homepage of Prof. Sean M. Couch.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -17,17 +12,17 @@ tiles-count: 3
 # Misc settings
 featured-image-source:
 
+# Social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/smcouch
+gitlab_url: 
+googleplus_url: 
+instagram_url:
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
+
 # Build settings
 markdown: kramdown
-
-navbar:
-  - name: Home
-    url: /
-  - name: Research
-    url: /#research
-  - name: Teaching
-    url: /teaching.md
-  - name: Publications
-    url: /#publications
-  - name: Code & Projects
-    url: /projects.md
