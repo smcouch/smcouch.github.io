@@ -1,6 +1,41 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+.bio-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.bio-image {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.bio-text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+ul.icons.major {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+ul.icons.major li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+ul.icons.major li a .label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
