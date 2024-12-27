@@ -22,7 +22,8 @@ instagram_url:
 linkedin_url: 
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
+bluesky_url: https://bsky.app/profile/bigstarkiller.bsky.social
 
 # Build settings
 markdown: kramdown
