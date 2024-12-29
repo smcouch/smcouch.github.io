@@ -3853,11 +3853,13 @@ ul.icons.major li a .label {
     padding: 50px 20px;
 }
 
+
 /* Bio Section Styling */
 .bio-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 .bio-image {
@@ -3866,10 +3868,10 @@ ul.icons.major li a .label {
 
 .circular-image {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    /* Smaller size */
+    height: 150px;
     object-fit: cover;
-    /* Fixes aspect ratio */
     border: 4px solid #ccc;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
